@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\Administrator\source\repos\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\Administrator\source\repos\Demo\Demo\bin\Debug\NetWorkHelper.dll
+C:\Users\Administrator\source\repos\Demo\Demo\bin\Debug\NetWorkHelper.pdb
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\Administrator\source\repos\Demo\Demo\obj\Debug\Demo.Form1.resources
