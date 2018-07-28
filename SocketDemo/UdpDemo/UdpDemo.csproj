@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF45DA68-9143-4A7B-B174-8DD8188BEDAB}</ProjectGuid>
+    <ProjectGuid>{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SocketClient</RootNamespace>
-    <AssemblyName>SocketClient</AssemblyName>
+    <RootNamespace>UdpDemo</RootNamespace>
+    <AssemblyName>UdpDemo</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,25 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmTcpClient.cs">
+    <Compile Include="FrmClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmTcpClient.Designer.cs">
-      <DependentUpon>FrmTcpClient.cs</DependentUpon>
+    <Compile Include="FrmClient.Designer.cs">
+      <DependentUpon>FrmClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmUdpClient.cs">
+    <Compile Include="FrmServer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmUdpClient.Designer.cs">
-      <DependentUpon>FrmUdpClient.cs</DependentUpon>
+    <Compile Include="FrmServer.Designer.cs">
+      <DependentUpon>FrmServer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmTcpClient.resx">
-      <DependentUpon>FrmTcpClient.cs</DependentUpon>
+    <EmbeddedResource Include="FrmClient.resx">
+      <DependentUpon>FrmClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmUdpClient.resx">
-      <DependentUpon>FrmUdpClient.cs</DependentUpon>
+    <EmbeddedResource Include="FrmServer.resx">
+      <DependentUpon>FrmServer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,12 +81,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NetWorkHelper\NetWorkHelper.csproj">
-      <Project>{2e9ac112-75cc-4fb6-b058-f9c7424514ef}</Project>
-      <Name>NetWorkHelper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

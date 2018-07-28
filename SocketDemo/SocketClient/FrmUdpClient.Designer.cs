@@ -1,6 +1,6 @@
-﻿namespace Demo
+﻿namespace SocketClient
 {
-    partial class FrmServer
+    partial class FrmUdpClient
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,45 +29,36 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
             this.axUdpClient1 = new NetWorkHelper.AxUdpClient(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(148, 140);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // axUdpClient1
             // 
             this.axUdpClient1.IsAxAgreement = true;
-            this.axUdpClient1.LocalPort = 0;
-            this.axUdpClient1.RemoteIp = "";
+            this.axUdpClient1.LocalPort = 9999;
+            this.axUdpClient1.RemoteIp = "0.0.0.0";
             this.axUdpClient1.RemotePort = 8888;
+            this.axUdpClient1.ReceiveTextMsg += new NetWorkHelper.AxUdpClient.ReceiveTextMsgEventHandler(this.axUdpClient1_ReceiveTextMsg);
             // 
             // panel1
             // 
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Location = new System.Drawing.Point(290, 91);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(388, 328);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(1301, 715);
+            this.panel1.TabIndex = 0;
             // 
-            // FrmServer
+            // FrmClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1301, 715);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
-            this.Name = "FrmServer";
+            this.Name = "FrmClient";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmClient_Load);
             this.ResumeLayout(false);
 
         }
@@ -75,7 +66,6 @@
         #endregion
 
         private NetWorkHelper.AxUdpClient axUdpClient1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
     }
 }

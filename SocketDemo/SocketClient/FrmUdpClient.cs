@@ -14,15 +14,15 @@ using NetWorkHelper;
 
 namespace SocketClient
 {
-    public partial class FrmClient : Form
+    public partial class FrmUdpClient : Form
     {
-        public FrmClient()
+        public FrmUdpClient()
         {
             InitializeComponent();
-            axUdpClient1.RemotePort = 8888;
-            axUdpClient1.RemoteIp = IPAddress.Any.ToString();
-            axUdpClient1.LocalPort = 9999;
-            axUdpClient1.Start();
+            //axUdpClient1.RemotePort = 8888;
+            //axUdpClient1.RemoteIp = IPAddress.Any.ToString();
+            //axUdpClient1.LocalPort = 9999;
+            //axUdpClient1.Start();
         }
 
         private void axUdpClient1_ReceiveTextMsg(MsgTypeCell msgTypeCell)
@@ -33,14 +33,14 @@ namespace SocketClient
                     MessageBox.Show(Encoding.Default.GetString(msgTypeCell.BufferBytes));
                     break;
                 case MsgType.Pic:
-                    if (msgTypeCell.BufferBytes.Length > 0)
-                    {
-                        MemoryStream ms = new MemoryStream(msgTypeCell.BufferBytes);
+                    //if (msgTypeCell.BufferBytes.Length > 0)
+                    //{
+                    //    MemoryStream ms = new MemoryStream(msgTypeCell.BufferBytes);
 
-                        panel1.BackgroundImage = Image.FromStream(ms);
-                        ms.Close();
-                        ms.Dispose();
-                    }
+                    //    panel1.BackgroundImage = Image.FromStream(ms);
+                    //    ms.Close();
+                    //    ms.Dispose();
+                    //}
                     break;
 
             }

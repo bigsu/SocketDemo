@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Demo
+namespace UdpDemo
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmUdpServer());
+            Application.Run(new FrmServer());
         }
     }
 }

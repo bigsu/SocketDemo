@@ -1,0 +1,10 @@
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\bin\Debug\UdpDemo.exe
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\bin\Debug\UdpDemo.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.csprojResolveAssemblyReference.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.Properties.Resources.resources
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.csproj.GenerateResource.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.csproj.CoreCompileInputs.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.exe
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.FrmClient.resources
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\UdpDemo\obj\Debug\UdpDemo.FrmServer.resources

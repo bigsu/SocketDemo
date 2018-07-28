@@ -22,3 +22,16 @@ C:\Users\LiKai\Desktop\SocketDemo\SocketServer\obj\Debug\SocketServer.csproj.Cor
 C:\Users\LiKai\Desktop\SocketDemo\SocketServer\obj\Debug\SocketServer.csproj.CopyComplete
 C:\Users\LiKai\Desktop\SocketDemo\SocketServer\obj\Debug\Demo.exe
 C:\Users\LiKai\Desktop\SocketDemo\SocketServer\obj\Debug\Demo.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\Demo.Properties.Resources.resources
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\Demo.exe
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\Demo.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\bin\Debug\Demo.exe
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\bin\Debug\Demo.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\bin\Debug\NetWorkHelper.dll
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\bin\Debug\NetWorkHelper.pdb
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\SocketServer.csproj.CopyComplete
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\Demo.FrmTcpServer.resources
+A:\1-Project\------------Demo-----------\SocketDemo\SocketDemo\SocketServer\obj\Debug\Demo.FrmUdpServer.resources

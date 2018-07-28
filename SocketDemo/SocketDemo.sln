@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetWorkHelper", "NetWorkHelper\NetWorkHelper.csproj", "{2E9AC112-75CC-4FB6-B058-F9C7424514EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpDemo", "UdpDemo\UdpDemo.csproj", "{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2E9AC112-75CC-4FB6-B058-F9C7424514EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E9AC112-75CC-4FB6-B058-F9C7424514EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E9AC112-75CC-4FB6-B058-F9C7424514EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A93FA43-62CB-4376-A8CF-87CC5109C5F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
